@@ -14,6 +14,7 @@ describe('My Login application', () => {
         //await loginPage.address(); 
         //await loginPage.aptSteUnit(); 
         //await loginPage.country(); 
+                //await loginPage.country(); 
 
 
 
