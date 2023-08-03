@@ -82,4 +82,4 @@ class Registration extends Page {
     }
 }
 
-export default new RegistrationPage();
+export default new Registration();

@@ -1,7 +1,7 @@
 /**
  * test with page objects
  */
-import RegistrationPage from '../pageobjects/Registration.page.js'
+import RegistrationPage from '../../pageobjects/Registration.page.js'
 
 describe('Positive test for Rallybound ', () => {
     it('Account Registration', async () => {
