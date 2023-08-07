@@ -1,9 +1,5 @@
 export const config = {
-    
-    hostname: 'localhost',
-    port: 4444,
-    path: '/wd/hub',
-
+    //
     // ====================
     // Runner Configuration
     // ====================
@@ -54,20 +50,9 @@ export const config = {
     // Sauce Labs platform configurator - a great tool to configure your capabilities:
     // https://saucelabs.com/platform/platform-configurator
     //
-    capabilities: [
-        {
-        maxInstances: 1,
-        browserName: 'chrome',
-        },
-        {
-        maxInstances: 1,
-        browserName: 'firefox',
-        },
-        {
-        maxInstances: 1,
-        browserName: 'MicrosoftEdge',
-        },
-    ],
+    capabilities: [{
+        browserName: 'chrome'
+    }],
 
     //
     // ===================
