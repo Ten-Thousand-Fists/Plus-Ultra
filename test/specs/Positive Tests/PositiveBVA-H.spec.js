@@ -2,6 +2,7 @@
  * test with page objects
  */
 import RegistrationPage from '../../pageobjects/Registration.page.js'
+import { Positive_vals } from '../../TestData/Positives.js';
 
 describe('Positive test for Rallybound ', () => {
     it('Account Registration', async () => {
