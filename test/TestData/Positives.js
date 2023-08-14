@@ -3,11 +3,11 @@ export class Positive_vals {
 
     static Pos_case_EP = {
 
-        1: "Loren",
-        Lastname: "Kim",
-        email_Address: "KimMitch3ll@gmail.com",
-        Password: "Pas5@#",
-        Confirm_Password: "Pas5@#",
+        firstName: "Loren",
+        lastName: "Kim",
+        emailAddress: "KimMitch3ll@gmail.com",
+        Password: "Password5@#",
+        confirmPassword: "Password5@#",
         Address: "4020 Peña-St",
         Apt_Suite_Unit: "#J5904",
         Country: "UNITED STATES",
