@@ -3,26 +3,27 @@ export class Positive_vals {
 
     static Pos_case_EP = {
 
-        firstName: "Loren",
-        lastName: "Kim",
-        emailAddress: "KimMitch3ll@gmail.com",
+        FirstName: "Loren",
+        lastname: "Kim",
+        email_Address: "KimMitch3ll@gmail.com",
         Password: "Password5@#",
-        confirmPassword: "Password5@#",
+        Confirm_Password: "Password5@#",
         Address: "4020 Peña-St",
         Apt_Suite_Unit: "#J5904",
         Country: "UNITED STATES",
         City: "Piña",
         State: "CA",
         Zip: "92046",
-        Phone_Number: "714-966-6605",
-        Next_Button: "NEXT Button"
+        Phone1: "714",
+        Phone2: "966",
+        Phone3: "6605"
+    
         
-    
-    
-    
-    
-    
+        
+        
     } 
+
+
     
     
     static Pos_case_BVAL = {
@@ -38,9 +39,9 @@ export class Positive_vals {
         City: "Piña",
         State: "CA",
         Zip: "92046",
-        Phone_Number: "714-966-6605",
-        Next_Button: "NEXT Button"
-    
+        Phone1: "714",
+        Phone2: "966",
+        Phone3: "6605",
     
     
     
@@ -68,22 +69,6 @@ export class Positive_vals {
     }
     
 
-
-    static refrencearray ={
-
-        firstName: "Loren",
-        lastName: "Kim"
-
-
-    }
-
-
-    static staticx_tags = {
-
-        x1: "l"
-        
-
-    } 
 
 
 
