@@ -32,7 +32,7 @@ export class Positive_vals {
         Apt_Suite_Unit: "#J5904",
         Country: "CANADA",
         City: "Piña",
-        Province: "NB", //Does not work as a value through these methods AB
+        Province: "NB", //The province AB in Canada does not work as a value through these methods 
         Postal: "A1A 1A1",
         Phone1: "714",
         Phone2: "966",

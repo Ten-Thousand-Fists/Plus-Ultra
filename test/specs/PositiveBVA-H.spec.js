@@ -5,6 +5,8 @@ import RegistrationPage from '../pageobjects/Registration.page.js'
 import { Positive_vals } from '../TestData/Positives.js';
 
 describe('Positive test for Rallybound ', () => {
+
+
     it('Account Registration', async () => {
         await RegistrationPage.open(); 
 
@@ -33,7 +35,15 @@ describe('Positive test for Rallybound ', () => {
             
     }); 
 
-    xit('Selection as Canada: Work in progress', async () => {
+    xit('Selection as Canada: Work in progress----', async () => {
+
+        //There are some values that were not working with province selector for automation such as the province AB
+        //Unsure about other values that do not work. 
+        //Also check if the rest of the test works in regards to the Phone1, Phone2, Phone3
+        //Also at home setup is not working with other browsers only with the edge browser check if that is also the case as well 
+        //at NFAR too. 
+
+
         await RegistrationPage.open(); 
 
         await browser.pause(1000);
@@ -53,6 +63,7 @@ describe('Positive test for Rallybound ', () => {
             //Positive_vals.Test1.Phone1, 
         //     // Positive_vals.Test1.Phone2, 
         //     // Positive_vals.Test1.Phone3
+
             );
             
 
