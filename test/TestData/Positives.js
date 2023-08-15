@@ -78,13 +78,6 @@ export class Positive_vals {
     }
 
 
-    static staticx_tags = {
-
-        x1: "l"
-        
-
-    } 
-
 
 
 
