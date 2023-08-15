@@ -1,4 +1,4 @@
-export class Negative_vals {
+export class Reference {
 
 
     static Reference_vals = {
@@ -19,8 +19,13 @@ export class Negative_vals {
         Phone3: "3145",
        
     } 
+}
 
 
+
+for (let i = 0; i < Reference_vals; i++) {
+
+    
 }
 
 

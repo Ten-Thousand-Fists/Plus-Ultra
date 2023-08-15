@@ -138,9 +138,6 @@ async login3 (firstName,lastName,email,password,confirmPassword,address,apt, cou
 
 
 
-for (let i= 1; i < 5; i++) {
-
-};
 
 
 

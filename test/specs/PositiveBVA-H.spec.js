@@ -5,7 +5,7 @@ import RegistrationPage from '../pageobjects/Registration.page.js'
 import { Positive_vals } from '../TestData/Positives.js';
 
 describe('Positive test for Rallybound ', () => {
-    xit('Account Registration', async () => {
+    it('Account Registration', async () => {
         await RegistrationPage.open(); 
 
         await browser.pause(1000);
