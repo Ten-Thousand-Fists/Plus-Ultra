@@ -49,11 +49,16 @@ class Registration extends Page {
     }
 
     get State() {
-        return $('#state');
+        return $('#state'); 
     }
 
     get Zip() {
         return $('#zip');
+    }
+
+
+     get Canada() {
+         return $('#stateCa') 
     }
 
     get phone1() {
@@ -66,6 +71,10 @@ class Registration extends Page {
 
     get phone3() {
         return $('#phoneNumber3');
+    }
+
+    get Next_btn() {
+        return $('#register1Next');
     }
     
     /**
@@ -82,15 +91,56 @@ class Registration extends Page {
         await this.add_ress.setValue(address);
         await this.aptSteUnit.setValue(apt); 
         await this.Country.selectByVisibleText(country);
-        // await this.City.setValue(city); 
-        //await this.State.selectByVisibleText(state);
-        // await this.Zip.setValue(zip);
-        // await this.phone1.setValue(ph1);
-        // await this.phone2.setValue(ph2);
-        // await this.phone3.setValue(ph3);
+        await this.City.setValue(city); 
+        await this.State.selectByVisibleText(state);
+        await this.Zip.setValue(zip);
+        await this.phone1.setValue(ph1);
+        await this.phone2.setValue(ph2);
+        await this.phone3.setValue(ph3);
 }
 
 
+
+async login2 (firstName,lastName,email,password,confirmPassword,address,apt, country, city, can, zip, ph1, ph2, ph3) {
+    await this.first_Name.setValue(firstName);
+    await this.last_Name.setValue(lastName);
+    await this.email_Address.setValue(email);
+    await this.password1.setValue(password);
+    await this.con_password.setValue(confirmPassword);
+    await this.add_ress.setValue(address);
+    await this.aptSteUnit.setValue(apt); 
+    await this.Country.selectByVisibleText(country);
+    await this.City.setValue(city); 
+    await this.Canada.selectByVisibleText(can); 
+    await this.Zip.setValue(zip);
+    await this.phone1.setValue(ph1);
+    //work in progress
+}
+
+
+async login3 (firstName,lastName,email,password,confirmPassword,address,apt, country, city, zip, ph1, ph2, ph3) {
+    // await this.first_Name.setValue(firstName);
+    // await this.last_Name.setValue(lastName);
+    // await this.email_Address.setValue(email);
+    // await this.password1.setValue(password);
+    // await this.con_password.setValue(confirmPassword);
+    // await this.add_ress.setValue(address);
+    // await this.aptSteUnit.setValue(apt); 
+    // await this.Country.selectByVisibleText(country);
+    // await this.City.setValue(city); 
+    // await this.Zip.setValue(zip);
+    // await this.phone1.setValue(ph1);
+    // await this.phone2.setValue(ph2);
+    // await this.phone3.setValue(ph3);
+
+}
+
+
+
+
+for (let i= 1; i < 5; i++) {
+
+};
 
 
 

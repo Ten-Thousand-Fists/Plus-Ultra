@@ -14,14 +14,49 @@ export class Positive_vals {
         City: "Piña",
         State: "CA",
         Zip: "92046",
-        Phone_Number: "714-966-6605",
-        Next_Button: "NEXT Button"
-        
-    
-    
-    
-    
-    
+        Phone1: "714",
+        Phone2: "966",
+        Phone3: "6605",
+       
+    } 
+
+
+    static Test1 = {
+
+        firstName: "Loren",
+        lastName: "Kim",
+        emailAddress: "KimMitch3ll@gmail.com",
+        Password: "Password5@#",
+        confirmPassword: "Password5@#",
+        Address: "4020 Peña-St",
+        Apt_Suite_Unit: "#J5904",
+        Country: "CANADA",
+        City: "Piña",
+        Province: "NB", //Does not work as a value through these methods AB
+        Postal: "A1A 1A1",
+        Phone1: "714",
+        Phone2: "966",
+        Phone3: "6605",
+       
+    } 
+
+    static Test2 = {
+
+        firstName: "Loren",
+        lastName: "Kim",
+        emailAddress: "KimMitch3ll@gmail.com",
+        Password: "Password5@#",
+        confirmPassword: "Password5@#",
+        Address: "4020 Peña-St",
+        Apt_Suite_Unit: "#J5904",
+        Country: "UNITED STATES",
+        City: "Piña",
+        State: "CA",
+        Zip: "92046",
+        Phone1: "714",
+        Phone2: "966",
+        Phone3: "6605",
+       
     } 
     
     
@@ -39,12 +74,10 @@ export class Positive_vals {
         State: "CA",
         Zip: "92046",
         Phone_Number: "714-966-6605",
-        Next_Button: "NEXT Button"
-    
-    
-    
-    
-    
+        Phone1: "714",
+        Phone2: "966",
+        Phone3: "6605",
+
     }
     
     
@@ -62,20 +95,12 @@ export class Positive_vals {
         State: "CA",
         Zip: "90213",
         Phone_Number: "963-214-5780",
-        Next_Button: "NEXT Button"
-    
-    
+       
     }
     
 
 
-    static refrencearray ={
-
-        firstName: "Loren",
-        lastName: "Kim"
-
-
-    }
+    
 
 
 
