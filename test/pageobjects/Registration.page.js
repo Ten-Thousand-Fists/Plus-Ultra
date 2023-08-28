@@ -76,64 +76,76 @@ class Registration extends Page {
     get Next_btn() {
         return $('#register1Next');
     }
+
+    get pageChecker() {
+        return $('.registerh2'); 
+    }
+
+
+
+
+    //These is to check for negatives test as passing will mean it failed successfully
+
+    get firstname_alert(){
+        return $('#firstName-errorDv');
+    }
+
+    get lastname_alert(){
+        return $('#lastName-errorDv')
+    }
+
+    get email_alert(){
+        return $('#emailAddress-errorDv')
+    }
+
+    get password_alert(){
+        return $('#password-errorDv')
+    }
+
+    get conpass_alert(){
+        return $('#confirmPassword-errorDv')
+    }
+
+    get address_alert(){
+        return $('#address1-errorDv')
+    }
+
+    get city_alert(){
+        return $('#city-errorDv')
+    }
+
+    get zip_alert(){
+        return $('#city-errorDv')
+    }
+
+    get phone_alert(){
+        return $('#phoneNumber3-errorDv')
+    }
+
+
+
+
+
+
+
+
+
+
+
+
     
     /**
      * a method to encapsule automation code to interact with the page
      * e.g. to login using username and password
      */
     
-    async login (firstName,lastName,email,password,confirmPassword,address,apt, country, city, state, zip, ph1, ph2, ph3) {
-        await this.first_Name.setValue(firstName);
-        await this.last_Name.setValue(lastName);
-        await this.email_Address.setValue(email);
-        await this.password1.setValue(password);
-        await this.con_password.setValue(confirmPassword);
-        await this.add_ress.setValue(address);
-        await this.aptSteUnit.setValue(apt); 
-        await this.Country.selectByVisibleText(country);
-        await this.City.setValue(city); 
-        await this.State.selectByVisibleText(state);
-        await this.Zip.setValue(zip);
-        await this.phone1.setValue(ph1);
-        await this.phone2.setValue(ph2);
-        await this.phone3.setValue(ph3);
-}
+    
 
 
 
-async login2 (firstName,lastName,email,password,confirmPassword,address,apt, country, city, can, zip, ph1, ph2, ph3) {
-    await this.first_Name.setValue(firstName);
-    await this.last_Name.setValue(lastName);
-    await this.email_Address.setValue(email);
-    await this.password1.setValue(password);
-    await this.con_password.setValue(confirmPassword);
-    await this.add_ress.setValue(address);
-    await this.aptSteUnit.setValue(apt); 
-    await this.Country.selectByVisibleText(country);
-    await this.City.setValue(city); 
-    await this.Canada.selectByVisibleText(can); 
-    await this.Zip.setValue(zip);
-    await this.phone1.setValue(ph1);
-    //work in progress
-}
 
 
-async login3 (firstName,lastName,email,password,confirmPassword,address,apt, country, city, zip, ph1, ph2, ph3) {
-    // await this.first_Name.setValue(firstName);
-    // await this.last_Name.setValue(lastName);
-    // await this.email_Address.setValue(email);
-    // await this.password1.setValue(password);
-    // await this.con_password.setValue(confirmPassword);
-    // await this.add_ress.setValue(address);
-    // await this.aptSteUnit.setValue(apt); 
-    // await this.Country.selectByVisibleText(country);
-    // await this.City.setValue(city); 
-    // await this.Zip.setValue(zip);
-    // await this.phone1.setValue(ph1);
-    // await this.phone2.setValue(ph2);
-    // await this.phone3.setValue(ph3);
 
-}
 
 
 async sort (input) {
@@ -157,6 +169,15 @@ async sort (input) {
 }
 
 
+
+
+async phone (input) {
+    await this.phone1.setValue(input.TagX60.input1);
+    await this.phone2.setValue(input.TagX60.input2);
+    await this.phone3.setValue(input.TagX60.input3);
+ }
+
+ 
 
 
 
