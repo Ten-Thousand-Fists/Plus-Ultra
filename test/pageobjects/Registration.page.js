@@ -77,6 +77,10 @@ class Registration extends Page {
         return $('#register1Next');
     }
 
+    get pageChecker() {
+        return $('.registerh2'); 
+    }
+
 
 
 
@@ -165,6 +169,15 @@ async sort (input) {
 }
 
 
+
+
+async phone (input) {
+    await this.phone1.setValue(input.TagX60.input1);
+    await this.phone2.setValue(input.TagX60.input2);
+    await this.phone3.setValue(input.TagX60.input3);
+ }
+
+ 
 
 
 

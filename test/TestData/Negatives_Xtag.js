@@ -18,6 +18,8 @@ export class Negative_vals {
             Phone1: "619",
             Phone2: "577",
             Phone3: "3145",
+
+          
             
         
     
@@ -29,13 +31,13 @@ export class Negative_vals {
     
     static Testcase_31 = {
         
-        TagX1: "l"
+         TagX1: "l"  
 
     }
 
     static Testcase_32 = {
         
-        TagX2: "lorenlorenlorenlorenlorenlorenlorenlorenlorenlorenlorenlorenlorenloren"
+        TagX2: "lorenlorenlorenlorenlorenlorenlorenlorenlorenlorenlorenlorenlorenloren"  //This is a EPH invalid input
 
     }
 
@@ -72,13 +74,13 @@ export class Negative_vals {
 
     static Testcase_37 = {
         
-        TagX7: "M"
+         TagX7: "M"
 
     }
 
     static Testcase_38 = {
         
-        TagX8: "dominguezdominguezdominguezdominguezdominguezdominguezdominguezdominguez"
+        TagX8: "dominguezdominguezdominguezdominguezdominguezdominguezdominguezdominguez" //This is a EPH invalid input
 
     }
 
@@ -122,7 +124,7 @@ export class Negative_vals {
 
     static Testcase_44 = {
         
-        TagX14: "NatalieHawkins@gmail.comNatalieHawkins@gmail.comNatalieHawkins@gm"
+        TagX14: "NatalieHawkins@gmail.comNatalieHawkins@gmail.comNatalieHawkins@gm" //This is a EPH invalid input
 
     }
 
@@ -178,7 +180,7 @@ export class Negative_vals {
 
     static Testcase_52 = {
         
-        TagX22: "$@#!$2131gGSCVSEFESVdadiafjodpfhaewiopfhaeiowfj;23$%@#$RQEFW)vagtu9j34got9ehjnrp"
+        TagX22: "$@#!$2131gGSCVSEFESVdadiafjodpfhaewiopfhaeiowfj;23$%@#$RQEFW)vagtu9j34got9ehjnrp" //This is a EPH invalid input
 
     }
 
@@ -245,7 +247,7 @@ export class Negative_vals {
 
     static Testcase_62 = {
         
-        TagX32: "54321CarmelValleyRoad54321CarmelValleyRoad54321CarmelValleyRoad54"
+        TagX32: "54321CarmelValleyRoad54321CarmelValleyRoad54321CarmelValleyRoad54" //This is a EPH invalid input
 
     }
 
@@ -271,7 +273,7 @@ export class Negative_vals {
 
     static Testcase_65 = {
         
-        TagX35: "A#650A#650A"
+        TagX35: "A#650A#650A" //This is a EPH invalid input
 
     }
 
@@ -303,7 +305,7 @@ export class Negative_vals {
 
     static Testcase_69 = {
         
-        TagX39: "SanDiegoSanDiegoSanDiegoSanDiegoSanDiegoSanDiegoSanDiegoSanDiegoS"
+        TagX39: "SanDiegoSanDiegoSanDiegoSanDiegoSanDiegoSanDiegoSanDiegoSanDiegoS" //This is a EPH invalid input
 
     }
 
@@ -358,7 +360,7 @@ export class Negative_vals {
 
     static Testcase_77 = {
         
-        TagX47: "921100"
+        TagX47: "921100" //This is a EPH invalid input
 
     }
 
@@ -400,95 +402,148 @@ export class Negative_vals {
 
     }
 
-    static Testcase_ = {
+    static Testcase_83 = {
         
-        TagX8: ""
+        TagX53: "M5 2V"
 
     }
 
-    static Testcase_38 = {
+    static Testcase_84 = {
         
-        TagX8: ""
+        TagX54: "M5C 2V999" //This is a EPH invalid input
 
     }
 
-    static Testcase_38 = {
+    static Testcase_85 = {
         
-        TagX8: ""
+        TagX55: "M5C22V9"
 
     }
 
-    static Testcase_38 = {
+
+
+
+
+
+    //Negative test cases for Other Postal 
+    
+    static Testcase_86 = {
         
-        TagX8: ""
+        TagX56: "O'ha"
 
     }
 
-    static Testcase_38 = {
+    static Testcase_87 = {
         
-        TagX8: ""
+        TagX57: "1"
 
     }
 
-    static Testcase_38 = {
+    static Testcase_88 = {
         
-        TagX8: ""
+        TagX58: "Moseelookmeguntic" //This is a EPH invalid input
 
     }
 
-    static Testcase_38 = {
+    static Testcase_89 = {
         
-        TagX8: ""
+        TagX59: "" //This is a Null input
 
     }
 
-    static Testcase_38 = {
+
+
+
+
+
+    //This is Negative Phone number test cases
+
+    static Testcase_90 = {
         
-        TagX8: ""
+         TagX60: {
+            input1: "lor", 
+            input2: "en7",
+            input3: "3146",
+
+        }
+
+    }     
+
+    static Testcase_91 = {
+        
+        TagX61: {
+            input1: "619",
+            input2: "577",
+            input3: "3145",
+        }
 
     }
 
-    static Testcase_38 = {
+    static Testcase_92 = {
         
-        TagX8: ""
+        TagX62: {
+           input1: "619_",  //Watch these inputs in when the test is running
+           input2: "577_", 
+           input3: "3145",
+
+        }
 
     }
 
-    static Testcase_38 = {
+    static Testcase_93 = {
         
-        TagX8: ""
+        TagX63: {
+           input1: "119",
+           input2: "577",
+           input3: "3145",
+        
+        }
 
     }
 
-    static Testcase_38 = {
+    static Testcase_94 = {
         
-        TagX8: ""
+        TagX64: {
+           input1: "019",
+           input2: "577",
+           input3: "3145",
+  
+        }
 
     }
 
-    static Testcase_38 = {
+    static Testcase_95 = {
         
-        TagX8: ""
+        TagX65: {
+            input1: "314", 
+            input2: "5",
+            input2: "",
+        }
 
     }
 
-    static Testcase_38 = {
+    static Testcase_96 = {
         
-        TagX8: ""
+        TagX66: {         //This is a EPH invalid input
+           input1: "123",
+           input2: "456",
+           input3: "7891011",
+        }
 
     }
 
-    static Testcase_38 = {
+    static Testcase_97 = {
         
-        TagX8: ""
+        TagX67: {       //This is a Null input 
+            input1: "", 
+            input2: "", 
+            input3: "",
+        }
 
     }
 
-    static Testcase_38 = {
-        
-        TagX8: ""
 
-    }
+
 
 
     
