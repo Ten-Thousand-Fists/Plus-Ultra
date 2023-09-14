@@ -1,17 +1,17 @@
 export class Positive_vals {
 
 
-    static Pos_case_EP = {
+    static Reference_vals = {
 
         FirstName: "Loren",
         lastname: "Kim",
         email_Address: "KimMitch3ll@gmail.com",
-        Password: "Password5@#",
-        Confirm_Password: "Password5@#",
+        Password: "Pas5@#@#",
+        Confirm_Password: "Pas5@#@#",
         Address: "4020 Peña-St",
         Apt_Suite_Unit: "#J5904",
         Country: "UNITED STATES",
-        City: "Piña",
+        City: "San Diego",
         State: "CA",
         Zip: "92046",
         Phone1: "714",
@@ -26,50 +26,272 @@ export class Positive_vals {
 
     
     
-    static Pos_case_BVAL = {
+    static Testcase_2 = {
     
-        FirstName: "LHK",
-        lastname: "LHK",
-        email_Address: "L@M.com",
-        Password: "B3nny!",
-        Confirm_Password: "B3nny!",
-        Address: "360A",
-        Apt_Suite_Unit: "76B",
-        Country: "UNITED STATES",
-        City: "Piña",
-        State: "CA",
-        Zip: "92046",
-        Phone1: "714",
-        Phone2: "966",
-        Phone3: "6605",
-    
-    
-    
-    
+        TagV2: "Lôren"
+
     }
+
+    static Testcase_3 = {
     
-    
-    static Pos_case_BVAH = {
-    
-        FirstName: "LorenLorenLorenLorenLorenLorenLorenLorenLorenLorenLorenLorenLore",
-        lastname: "KimKimKimKimKimKimKimKimKimKimKimKimKimKimKimKimKimKimKimKimKimK",
-        Email_Address: "MîchaelSmith@yahoo.com",
-        Password: "air;ohg@aiehwfoīáf32hioj23ir2iohrio2hdadIREWSDAFOJLJOJFWAFHDOSra",
-        Confirm_Password: "air;ohg@aiehwfoīáf32hioj23ir2iohrio2hdadIREWSDAFOJLJOJFWAFHDOSra",
-        Address: "12345 Papillon Avenue, 09876 Velvet Street, 90631 Hershey Road, 421 Love St",
-        Apt_Suite_Unit: "Apt 76B-A23",
-        Country: "Ontario",
-        City: "San Diego, Los Angeles, San Francisco, Tokyo, Montreal, Sacramento, Seoul, Osaka, NYC",
-        State: "CA",
-        Zip: "90213",
-        Phone_Number: "963-214-5780",
-        Next_Button: "NEXT Button"
-    
-    
+        TagV3: "Loren-Dean"
+
     }
+
+    static Testcase_4 = {
     
+        TagV2: "Lôren"
+
+    }
+
+    static Testcase_2 = {
+    
+        TagV2: "Lôren"
+
+    }
+
+    static Testcase_2 = {
+    
+        TagV2: "Lôren"
+
+    }
+
+    static Testcase_2 = {
+    
+        TagV2: "Lôren"
+
+    }
+
+    static Testcase_2 = {
+    
+        TagV2: "Lôren"
+
+    }
+
+    static Testcase_2 = {
+    
+        TagV2: "Lôren"
+
+    }
+
+    static Testcase_2 = {
+    
+        TagV2: "Lôren"
+
+    }
+
+    static Testcase_2 = {
+    
+        TagV2: "Lôren"
+
+    }
+
+    static Testcase_2 = {
+    
+        TagV2: "Lôren"
+
+    }
+
+    static Testcase_2 = {
+    
+        TagV2: "Lôren"
+
+    }
+
+    static Testcase_2 = {
+    
+        TagV2: "Lôren"
+
+    }
+
+    static Testcase_2 = {
+    
+        TagV2: "Lôren"
+
+    }
+
+    static Testcase_2 = {
+    
+        TagV2: "Lôren"
+
+    }
+
+    static Testcase_2 = {
+    
+        TagV2: "Lôren"
+
+    }
+
+    static Testcase_2 = {
+    
+        TagV2: "Lôren"
+
+    }
+
+    static Testcase_2 = {
+    
+        TagV2: "Lôren"
+
+    }
+
+    static Testcase_2 = {
+    
+        TagV2: "Lôren"
+
+    }
+
+    static Testcase_2 = {
+    
+        TagV2: "Lôren"
+
+    }
+
+    static Testcase_2 = {
+    
+        TagV2: "Lôren"
+
+    }
+
+    static Testcase_2 = {
+    
+        TagV2: "Lôren"
+
+    }
+
+    static Testcase_2 = {
+    
+        TagV2: "Lôren"
+
+    }
+
+    static Testcase_2 = {
+    
+        TagV2: "Lôren"
+
+    }
 
 
+    static Testcase_2 = {
+    
+        TagV2: "Lôren"
+
+    }
+
+    static Testcase_2 = {
+    
+        TagV2: "Lôren"
+
+    }
+
+    static Testcase_2 = {
+    
+        TagV2: "Lôren"
+
+    }
+
+    static Testcase_2 = {
+    
+        TagV2: "Lôren"
+
+    }
+
+    static Testcase_2 = {
+    
+        TagV2: "Lôren"
+
+    }
+
+    static Testcase_2 = {
+    
+        TagV2: "Lôren"
+
+    }
+
+    static Testcase_2 = {
+    
+        TagV2: "Lôren"
+
+    }
+
+    static Testcase_2 = {
+    
+        TagV2: "Lôren"
+
+    }
+
+    static Testcase_2 = {
+    
+        TagV2: "Lôren"
+
+    }
+
+    static Testcase_2 = {
+    
+        TagV2: "Lôren"
+
+    }
+
+    static Testcase_2 = {
+    
+        TagV2: "Lôren"
+
+    }
+
+    static Testcase_2 = {
+    
+        TagV2: "Lôren"
+
+    }
+
+    static Testcase_2 = {
+    
+        TagV2: "Lôren"
+
+    }
+
+    static Testcase_2 = {
+    
+        TagV2: "Lôren"
+
+    }
+
+    static Testcase_2 = {
+    
+        TagV2: "Lôren"
+
+    }
+
+    static Testcase_2 = {
+    
+        TagV2: "Lôren"
+
+    }
+
+    static Testcase_2 = {
+    
+        TagV2: "Lôren"
+
+    }
+
+    static Testcase_2 = {
+    
+        TagV2: "Lôren"
+
+    }
+
+    static Testcase_2 = {
+    
+        TagV2: "Lôren"
+
+    }
+
+    static Testcase_2 = {
+    
+        TagV2: "Lôren"
+
+    }
+
+    
 
 
 

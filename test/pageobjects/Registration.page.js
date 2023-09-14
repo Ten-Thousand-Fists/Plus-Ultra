@@ -37,11 +37,15 @@ class Registration extends Page {
     get aptSteUnit() {
         return $('#registerForm .registerAddress:nth-child(6) [type]');
     }
+
+    get label() { 
+        return $('.registerAddress > label')
+    }
     
     get Country() {
-        return $('#country');
+        return $('#country');  //Look back at the test cases that to see which ones incorporate a different country value
 
-        // return $('//select[@id='country']/option[@value='UNITED STATES']');
+        
     }
 
     get City() {
@@ -110,13 +114,23 @@ class Registration extends Page {
         return $('#address1-errorDv')
     }
 
+    get apt_ste_unit (){
+        return $('#apt/ste/unit-errorDv')  //Made up selector for missing error code 
+    }
+
     get city_alert(){
         return $('#city-errorDv')
     }
 
     get zip_alert(){
-        return $('#city-errorDv')
+        return $('#zip-errorDv')
     }
+
+    get canada_alert(){
+        return $('#canada_postal-errorDV')  //Made up selector for missing error code 
+    }
+
+    
 
     get phone_alert(){
         return $('#phoneNumber3-errorDv')
@@ -169,15 +183,35 @@ async sort (input) {
 }
 
 
+async sort2 (input) {
+
+    await this.first_Name.setValue(input.FirstName); 
+    await this.last_Name.setValue(input.lastname);  
+    await this.email_Address.setValue(input.email_Address);
+    await this.password1.setValue(input.Password);
+    await this.con_password.setValue(input.Confirm_Password);
+    await this.add_ress.setValue(input.Address);
+    await this.aptSteUnit.setValue(input.Apt_Suite_Unit); 
+    await this.Country.selectByVisibleText(input.Country);
+    await this.City.setValue(input.City);
+    await this.Zip.setValue(input.Zip);
+    await this.phone1.setValue(input.Phone1);
+    await this.phone2.setValue(input.Phone2);
+    await this.phone3.setValue(input.Phone3);
+
+
+}
+
+
 
 
 async phone (input) {
-    await this.phone1.setValue(input.TagX60.input1);
-    await this.phone2.setValue(input.TagX60.input2);
-    await this.phone3.setValue(input.TagX60.input3);
- }
+    await this.phone1.setValue(input.input1);
+    await this.phone2.setValue(input.input2);
+    await this.phone3.setValue(input.input3);
+}
 
- 
+
 
 
 

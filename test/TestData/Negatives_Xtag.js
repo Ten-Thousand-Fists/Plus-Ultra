@@ -19,11 +19,42 @@ export class Negative_vals {
             Phone2: "577",
             Phone3: "3145",
 
-          
+
             
         
     
     } 
+
+
+    static Reference_vals2 = {
+
+        FirstName: "Loren",
+        lastname: "Kim",
+        email_Address: "NatalieHawkins@gmail.com",
+        Password: "Thi$îsth3Way!",
+        Confirm_Password: "Thi$îsth3Way!",
+        Address: "54321 Carmel Valley Road",
+        Apt_Suite_Unit: "A#650",
+        
+        City: "San Diego",
+        State: "CA",
+
+        Phone1: "619",
+        Phone2: "577",
+        Phone3: "3145",
+
+
+        
+    
+
+} 
+
+static Reference_country = {
+
+    
+    Country: "FRANCE",
+
+} 
 
 
 
@@ -31,7 +62,7 @@ export class Negative_vals {
     
     static Testcase_31 = {
         
-         TagX1: "l"  
+        TagX1: "l"  
 
     }
 
@@ -74,7 +105,7 @@ export class Negative_vals {
 
     static Testcase_37 = {
         
-         TagX7: "M"
+        TagX7: "M"
 
     }
 
@@ -460,7 +491,7 @@ export class Negative_vals {
 
     static Testcase_90 = {
         
-         TagX60: {
+        TagX60: {
             input1: "lor", 
             input2: "en7",
             input3: "3146",
@@ -517,7 +548,7 @@ export class Negative_vals {
         TagX65: {
             input1: "314", 
             input2: "5",
-            input2: "",
+            input3: "",
         }
 
     }

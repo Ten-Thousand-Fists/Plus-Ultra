@@ -8,71 +8,59 @@ describe('Negative tests for Rallybound ', () => {
 
 
     //FIRSTNAME NEGATIVE TESTS CASES
-    xit ('(Firstname tests)Negative test case 31', async () => {
+    it ('Negative test case 31', async () => {
         await RegistrationPage.open(); 
         await RegistrationPage.sort(Negative_vals.Reference_vals)
         await (RegistrationPage.first_Name).setValue(Negative_vals.Testcase_31.TagX1); 
-        await browser.pause(2000); 
         await RegistrationPage.Next_btn.click();  
-        await browser.pause(2000); 
         await expect (RegistrationPage.firstname_alert).toBeExisting(); 
 
-       
+
     }); 
 
-    xit ('Negative test case 32', async () => {
+    it ('Negative test case 32', async () => {
         await RegistrationPage.open(); 
         await RegistrationPage.sort(Negative_vals.Reference_vals)
         await (RegistrationPage.first_Name).setValue(Negative_vals.Testcase_32.TagX2); 
-        await browser.pause(2000); 
         await RegistrationPage.Next_btn.click();  
-        await browser.pause(2000); 
         await expect (RegistrationPage.firstname_alert).toBeExisting(); 
 
     }); 
 
 
-    xit ('Negative test case 33', async () => {
+    it ('Negative test case 33', async () => {
         await RegistrationPage.open(); 
         await RegistrationPage.sort(Negative_vals.Reference_vals)
         await (RegistrationPage.first_Name).setValue(Negative_vals.Testcase_33.TagX3); 
-        await browser.pause(2000); 
         await RegistrationPage.Next_btn.click();  
-        await browser.pause(2000); 
         await expect (RegistrationPage.firstname_alert).toBeExisting(); 
 
     }); 
 
 
-    xit ('Negative test case 34', async () => {
+    it ('Negative test case 34', async () => {
         await RegistrationPage.open(); 
         await RegistrationPage.sort(Negative_vals.Reference_vals)
         await (RegistrationPage.first_Name).setValue(Negative_vals.Testcase_34.TagX4); 
-        await browser.pause(2000); 
         await RegistrationPage.Next_btn.click();  
-        await browser.pause(2000); 
         await expect (RegistrationPage.firstname_alert).toBeExisting(); 
 
     }); 
 
-    xit ('Negative test case 35', async () => {
+    it ('Negative test case 35', async () => {
         await RegistrationPage.open(); 
         await RegistrationPage.sort(Negative_vals.Reference_vals)
         await (RegistrationPage.first_Name).setValue(Negative_vals.Testcase_35.TagX5); 
-        await browser.pause(2000); 
         await RegistrationPage.Next_btn.click();  
-        await browser.pause(2000); 
         await expect (RegistrationPage.firstname_alert).toBeExisting(); 
 
     }); 
 
-    xit ('Negative test case 36', async () => {
+    it ('Negative test case 36', async () => {
         await RegistrationPage.open(); 
         await RegistrationPage.sort(Negative_vals.Reference_vals)
         await (RegistrationPage.first_Name).setValue(Negative_vals.Testcase_36.TagX6); 
-        await browser.pause(2000); 
         await RegistrationPage.Next_btn.click();  
-        await browser.pause(2000); 
         await expect (RegistrationPage.firstname_alert).toBeExisting(); 
 
     }); 
@@ -83,7 +71,7 @@ describe('Negative tests for Rallybound ', () => {
 
        // LAST NAME NEGATIVE TEST CASES
 
-    xit ('Negative test case 37', async () => {
+    it ('Negative test case 37', async () => {
         await RegistrationPage.open(); 
         await RegistrationPage.sort(Negative_vals.Reference_vals)
         await (RegistrationPage.last_Name).setValue(Negative_vals.Testcase_37.TagX7); 
@@ -94,7 +82,7 @@ describe('Negative tests for Rallybound ', () => {
 
     }); 
 
-    xit ('Negative test case 38', async () => {
+    it ('Negative test case 38', async () => {
         await RegistrationPage.open(); 
         await RegistrationPage.sort(Negative_vals.Reference_vals)
         await (RegistrationPage.last_Name).setValue(Negative_vals.Testcase_38.TagX8); 
@@ -105,7 +93,7 @@ describe('Negative tests for Rallybound ', () => {
 
     }); 
 
-    xit ('Negative test case 39', async () => {
+    it ('Negative test case 39', async () => {
         await RegistrationPage.open(); 
         await RegistrationPage.sort(Negative_vals.Reference_vals)
         await (RegistrationPage.last_Name).setValue(Negative_vals.Testcase_39.TagX9); 
@@ -116,7 +104,7 @@ describe('Negative tests for Rallybound ', () => {
 
     }); 
 
-    xit ('Negative test case 40', async () => {
+    it ('Negative test case 40', async () => {
         await RegistrationPage.open(); 
         await RegistrationPage.sort(Negative_vals.Reference_vals)
         await (RegistrationPage.last_Name).setValue(Negative_vals.Testcase_40.TagX10); 
@@ -127,7 +115,7 @@ describe('Negative tests for Rallybound ', () => {
 
     }); 
 
-    xit ('Negative test case 41', async () => {
+    it ('Negative test case 41', async () => {
         await RegistrationPage.open(); 
         await RegistrationPage.sort(Negative_vals.Reference_vals)
         await (RegistrationPage.last_Name).setValue(Negative_vals.Testcase_41.TagX11); 
@@ -138,7 +126,7 @@ describe('Negative tests for Rallybound ', () => {
 
     }); 
 
-    xit ('Negative test case 42', async () => {
+    it ('Negative test case 42', async () => {
         await RegistrationPage.open(); 
         await RegistrationPage.sort(Negative_vals.Reference_vals)
         await (RegistrationPage.last_Name).setValue(Negative_vals.Testcase_42.TagX12); 
@@ -156,7 +144,7 @@ describe('Negative tests for Rallybound ', () => {
 
     // EMAIL NEGATIVE TESTS CASES
 
-    xit ('Negative test case 43', async () => {
+    it ('Negative test case 43', async () => {
         await RegistrationPage.open(); 
         await RegistrationPage.sort(Negative_vals.Reference_vals)
         await (RegistrationPage.email_Address).setValue(Negative_vals.Testcase_43.TagX13); 
@@ -167,7 +155,7 @@ describe('Negative tests for Rallybound ', () => {
 
     }); 
 
-    xit ('Negative test case 44', async () => {
+    it ('Negative test case 44', async () => {
         await RegistrationPage.open(); 
         await RegistrationPage.sort(Negative_vals.Reference_vals)
         await (RegistrationPage.email_Address).setValue(Negative_vals.Testcase_44.TagX14); 
@@ -178,7 +166,7 @@ describe('Negative tests for Rallybound ', () => {
 
     }); 
 
-    xit ('Negative test case 45', async () => {
+    it ('Negative test case 45', async () => {
         await RegistrationPage.open(); 
         await RegistrationPage.sort(Negative_vals.Reference_vals)
         await (RegistrationPage.email_Address).setValue(Negative_vals.Testcase_45.TagX15); 
@@ -189,7 +177,7 @@ describe('Negative tests for Rallybound ', () => {
 
     }); 
 
-    xit ('Negative test case 46', async () => {
+    it ('Negative test case 46', async () => {
         await RegistrationPage.open(); 
         await RegistrationPage.sort(Negative_vals.Reference_vals)
         await (RegistrationPage.email_Address).setValue(Negative_vals.Testcase_46.TagX16); 
@@ -200,7 +188,7 @@ describe('Negative tests for Rallybound ', () => {
 
     }); 
 
-    xit ('Negative test case 47', async () => {
+    it ('Negative test case 47', async () => {
         await RegistrationPage.open(); 
         await RegistrationPage.sort(Negative_vals.Reference_vals)
         await (RegistrationPage.email_Address).setValue(Negative_vals.Testcase_47.TagX17); 
@@ -211,7 +199,7 @@ describe('Negative tests for Rallybound ', () => {
 
     }); 
 
-    xit ('Negative test case 48', async () => {
+    it ('Negative test case 48', async () => {
         await RegistrationPage.open(); 
         await RegistrationPage.sort(Negative_vals.Reference_vals)
         await (RegistrationPage.email_Address).setValue(Negative_vals.Testcase_48.TagX18); 
@@ -222,7 +210,7 @@ describe('Negative tests for Rallybound ', () => {
 
     }); 
 
-    xit ('Negative test case 49', async () => {
+    it ('Negative test case 49', async () => {
         await RegistrationPage.open(); 
         await RegistrationPage.sort(Negative_vals.Reference_vals)
         await (RegistrationPage.email_Address).setValue(Negative_vals.Testcase_49.TagX19); 
@@ -233,7 +221,7 @@ describe('Negative tests for Rallybound ', () => {
 
     }); 
 
-    xit ('Negative test case 50', async () => {
+    it ('Negative test case 50', async () => {
         await RegistrationPage.open(); 
         await RegistrationPage.sort(Negative_vals.Reference_vals)
         await (RegistrationPage.email_Address).setValue(Negative_vals.Testcase_50.TagX20); 
@@ -249,7 +237,7 @@ describe('Negative tests for Rallybound ', () => {
 
 
     //PASSWORD NEGATIVE TEST CASES (Covers Confirm Password input field as well)
-    xit ('Negative test case 51', async () => {
+    it ('Negative test case 51', async () => {
         await RegistrationPage.open(); 
         await RegistrationPage.sort(Negative_vals.Reference_vals)
         await (RegistrationPage.password1).setValue(Negative_vals.Testcase_51.TagX21); 
@@ -260,7 +248,7 @@ describe('Negative tests for Rallybound ', () => {
 
     }); 
 
-    xit ('Negative test case 52', async () => {
+    it ('Negative test case 52', async () => {
         await RegistrationPage.open(); 
         await RegistrationPage.sort(Negative_vals.Reference_vals)
         await (RegistrationPage.password1).setValue(Negative_vals.Testcase_52.TagX22); 
@@ -271,7 +259,7 @@ describe('Negative tests for Rallybound ', () => {
 
     }); 
 
-    xit ('Negative test case 53', async () => {
+    it ('Negative test case 53', async () => {
         await RegistrationPage.open(); 
         await RegistrationPage.sort(Negative_vals.Reference_vals)
         await (RegistrationPage.password1).setValue(Negative_vals.Testcase_53.TagX23); 
@@ -282,7 +270,7 @@ describe('Negative tests for Rallybound ', () => {
 
     }); 
 
-    xit ('Negative test case 54', async () => {
+    it ('Negative test case 54', async () => {
         await RegistrationPage.open(); 
         await RegistrationPage.sort(Negative_vals.Reference_vals)
         await (RegistrationPage.password1).setValue(Negative_vals.Testcase_54.TagX24); 
@@ -293,7 +281,7 @@ describe('Negative tests for Rallybound ', () => {
 
     }); 
 
-    xit ('Negative test case 55', async () => {
+    it ('Negative test case 55', async () => {
         await RegistrationPage.open(); 
         await RegistrationPage.sort(Negative_vals.Reference_vals)
         await (RegistrationPage.password1).setValue(Negative_vals.Testcase_55.TagX25); 
@@ -304,7 +292,7 @@ describe('Negative tests for Rallybound ', () => {
 
     }); 
 
-    xit ('Negative test case 56', async () => {
+    it ('Negative test case 56', async () => {
         await RegistrationPage.open(); 
         await RegistrationPage.sort(Negative_vals.Reference_vals)
         await (RegistrationPage.password1).setValue(Negative_vals.Testcase_56.TagX26); 
@@ -315,7 +303,7 @@ describe('Negative tests for Rallybound ', () => {
 
     }); 
 
-    xit ('Negative test case 57', async () => {
+    it ('Negative test case 57', async () => {
         await RegistrationPage.open(); 
         await RegistrationPage.sort(Negative_vals.Reference_vals)
         await (RegistrationPage.password1).setValue(Negative_vals.Testcase_57.TagX27); 
@@ -326,7 +314,7 @@ describe('Negative tests for Rallybound ', () => {
 
     }); 
 
-    xit ('Negative test case 58', async () => {
+    it ('Negative test case 58', async () => {
         await RegistrationPage.open(); 
         await RegistrationPage.sort(Negative_vals.Reference_vals)
         await (RegistrationPage.password1).setValue(Negative_vals.Testcase_58.TagX28); 
@@ -337,7 +325,7 @@ describe('Negative tests for Rallybound ', () => {
 
     }); 
 
-    xit ('Negative test case 59', async () => {
+    it ('Negative test case 59', async () => {
         await RegistrationPage.open(); 
         await RegistrationPage.sort(Negative_vals.Reference_vals)
         await (RegistrationPage.password1).setValue(Negative_vals.Testcase_59.TagX29); 
@@ -348,7 +336,7 @@ describe('Negative tests for Rallybound ', () => {
 
     }); 
 
-    xit ('Negative test case 60', async () => {
+    it ('Negative test case 60', async () => {
         await RegistrationPage.open(); 
         await RegistrationPage.sort(Negative_vals.Reference_vals)
         await (RegistrationPage.password1).setValue(Negative_vals.Testcase_60.TagX30); 
@@ -404,47 +392,41 @@ describe('Negative tests for Rallybound ', () => {
 
 
     //APT_SUITE_UNIT NEGATIVE TEST CASES
-    xit ('Negative test case 64', async () => {
+    // Only fails when all the other input fields fail (Do this) 
+
+    it ('Negative test case 64', async () => {
         await RegistrationPage.open(); 
         await RegistrationPage.sort(Negative_vals.Reference_vals)
         await (RegistrationPage.aptSteUnit).setValue(Negative_vals.Testcase_64.TagX34); 
-        await browser.pause(2000); 
         await RegistrationPage.Next_btn.click();  
-        await browser.pause(2000); 
-        //await expect (RegistrationPage.firstname_alert).toBeExisting(); 
+        await expect (RegistrationPage.label).toBeExisting(); 
 
     }); 
 
-    xit ('Negative test case 65', async () => {
+    it ('Negative test case 65', async () => {
         await RegistrationPage.open(); 
         await RegistrationPage.sort(Negative_vals.Reference_vals)
         await (RegistrationPage.aptSteUnit).setValue(Negative_vals.Testcase_65.TagX35); 
-        await browser.pause(2000); 
         await RegistrationPage.Next_btn.click();  
-        await browser.pause(2000); 
-        //await expect (RegistrationPage.firstname_alert).toBeExisting(); 
+        await expect (RegistrationPage.label).toBeExisting(); 
 
     }); 
 
-    xit ('Negative test case 66', async () => {
+    it ('Negative test case 66', async () => {
         await RegistrationPage.open(); 
         await RegistrationPage.sort(Negative_vals.Reference_vals)
         await (RegistrationPage.aptSteUnit).setValue(Negative_vals.Testcase_66.TagX36); 
-        await browser.pause(2000); 
         await RegistrationPage.Next_btn.click();  
-        await browser.pause(2000); 
-        //await expect (RegistrationPage.firstname_alert).toBeExisting(); 
+        await expect (RegistrationPage.label).toBeExisting(); 
 
     }); 
 
-    xit ('Negative test case 67', async () => {
+    it ('Negative test case 67', async () => {
         await RegistrationPage.open(); 
         await RegistrationPage.sort(Negative_vals.Reference_vals)
         await (RegistrationPage.aptSteUnit).setValue(Negative_vals.Testcase_67.TagX37); 
-        await browser.pause(2000); 
         await RegistrationPage.Next_btn.click();  
-        await browser.pause(2000); 
-        //await expect (RegistrationPage.firstname_alert).toBeExisting(); 
+        await expect (RegistrationPage.label).toBeExisting(); 
 
     }); 
 
@@ -454,7 +436,313 @@ describe('Negative tests for Rallybound ', () => {
 
 
 
-   
+    //CITY NEGATIVE TEST CASES
+    it ('Negative test case 68', async () => {
+        await RegistrationPage.open(); 
+        await RegistrationPage.sort(Negative_vals.Reference_vals)
+        await (RegistrationPage.City).setValue(Negative_vals.Testcase_68.TagX38); 
+        await RegistrationPage.Next_btn.click();  
+        await expect (RegistrationPage.city_alert).toBeExisting(); 
+
+    }); 
+
+    it ('Negative test case 69', async () => {
+        await RegistrationPage.open(); 
+        await RegistrationPage.sort(Negative_vals.Reference_vals)
+        await (RegistrationPage.City).setValue(Negative_vals.Testcase_69.TagX39); 
+        await RegistrationPage.Next_btn.click();  
+        await expect (RegistrationPage.city_alert).toBeExisting(); 
+
+    }); 
+
+    it ('Negative test case 70', async () => {
+        await RegistrationPage.open(); 
+        await RegistrationPage.sort(Negative_vals.Reference_vals)
+        await (RegistrationPage.City).setValue(Negative_vals.Testcase_70.TagX40); 
+        await RegistrationPage.Next_btn.click();  
+        await expect (RegistrationPage.city_alert).toBeExisting(); 
+
+    }); 
+
+    it ('Negative test case 71', async () => {
+        await RegistrationPage.open(); 
+        await RegistrationPage.sort(Negative_vals.Reference_vals)
+        await (RegistrationPage.City).setValue(Negative_vals.Testcase_71.TagX41); 
+        await RegistrationPage.Next_btn.click();  
+        await expect (RegistrationPage.city_alert).toBeExisting(); 
+
+    }); 
+
+    it ('Negative test case 72', async () => {
+        await RegistrationPage.open(); 
+        await RegistrationPage.sort(Negative_vals.Reference_vals)
+        await (RegistrationPage.City).setValue(Negative_vals.Testcase_72.TagX42); 
+        await RegistrationPage.Next_btn.click();  
+        await expect (RegistrationPage.city_alert).toBeExisting(); 
+
+    }); 
+
+    it ('Negative test case 73', async () => {
+        await RegistrationPage.open(); 
+        await RegistrationPage.sort(Negative_vals.Reference_vals)
+        await (RegistrationPage.City).setValue(Negative_vals.Testcase_73.TagX43); 
+        await RegistrationPage.Next_btn.click();  
+        await expect (RegistrationPage.city_alert).toBeExisting(); 
+
+    }); 
+
+
+
+
+
+
+    //US ZIP NEGATIVE TEST CASES
+
+    it ('Negative test case 74', async () => {
+        await RegistrationPage.open(); 
+        await RegistrationPage.sort(Negative_vals.Reference_vals)
+        await (RegistrationPage.Zip).setValue(Negative_vals.Testcase_74.TagX44); 
+        await RegistrationPage.Next_btn.click();  
+        await expect (RegistrationPage.zip_alert).toBeExisting(); 
+
+    }); 
+
+    it ('Negative test case 75', async () => {
+        await RegistrationPage.open(); 
+        await RegistrationPage.sort(Negative_vals.Reference_vals)
+        await (RegistrationPage.Zip).setValue(Negative_vals.Testcase_75.TagX45); 
+        await RegistrationPage.Next_btn.click();  
+        await expect (RegistrationPage.zip_alert).toBeExisting(); 
+
+    }); 
+
+    it ('Negative test case 76', async () => {
+        await RegistrationPage.open(); 
+        await RegistrationPage.sort(Negative_vals.Reference_vals)
+        await (RegistrationPage.Zip).setValue(Negative_vals.Testcase_76.TagX46); 
+        await RegistrationPage.Next_btn.click();  
+        await expect (RegistrationPage.zip_alert).toBeExisting(); 
+
+    }); 
+
+    it ('Negative test case 77', async () => {
+        await RegistrationPage.open(); 
+        await RegistrationPage.sort(Negative_vals.Reference_vals)
+        await (RegistrationPage.Zip).setValue(Negative_vals.Testcase_77.TagX47); 
+        await RegistrationPage.Next_btn.click();  
+        await expect (RegistrationPage.zip_alert).toBeExisting(); 
+
+    }); 
+
+    it ('Negative test case 78', async () => {
+        await RegistrationPage.open(); 
+        await RegistrationPage.sort(Negative_vals.Reference_vals)
+        await (RegistrationPage.Zip).setValue(Negative_vals.Testcase_78.TagX48); 
+        await RegistrationPage.Next_btn.click();  
+        await expect (RegistrationPage.zip_alert).toBeExisting(); 
+
+    }); 
+
+    it ('Negative test case 79', async () => {
+        await RegistrationPage.open(); 
+        await RegistrationPage.sort(Negative_vals.Reference_vals)
+        await (RegistrationPage.Zip).setValue(Negative_vals.Testcase_79.TagX49); 
+        await RegistrationPage.Next_btn.click();  
+        await expect (RegistrationPage.zip_alert).toBeExisting(); 
+
+    }); 
+
+
+
+
+
+
+    // CANADA POSTAL NEGATIVE TEST CASES
+
+    it ('Negative test case 80', async () => {
+        await RegistrationPage.open(); 
+        await RegistrationPage.sort(Negative_vals.Reference_vals)
+        await (RegistrationPage.Canada).setValue(Negative_vals.Testcase_80.TagX50); 
+        await RegistrationPage.Next_btn.click();  
+        await expect (RegistrationPage.canada_alert).toBeExisting(); 
+
+    }); 
+
+    it ('Negative test case 81', async () => {
+        await RegistrationPage.open(); 
+        await RegistrationPage.sort(Negative_vals.Reference_vals)
+        await (RegistrationPage.Canada).setValue(Negative_vals.Testcase_81.TagX51); 
+        await RegistrationPage.Next_btn.click();  
+        await expect (RegistrationPage.canada_alert).toBeExisting(); 
+
+    }); 
+
+    it ('Negative test case 82', async () => {
+        await RegistrationPage.open(); 
+        await RegistrationPage.sort(Negative_vals.Reference_vals)
+        await (RegistrationPage.Canada).setValue(Negative_vals.Testcase_82.TagX52); 
+        await RegistrationPage.Next_btn.click();  
+        await expect (RegistrationPage.canada_alert).toBeExisting(); 
+
+    }); 
+
+    it ('Negative test case 83', async () => {
+        await RegistrationPage.open(); 
+        await RegistrationPage.sort(Negative_vals.Reference_vals)
+        await (RegistrationPage.Canada).setValue(Negative_vals.Testcase_83.TagX53); 
+        await RegistrationPage.Next_btn.click();  
+        await expect (RegistrationPage.canada_alert).toBeExisting(); 
+
+    }); 
+
+    it ('Negative test case 84', async () => {
+        await RegistrationPage.open(); 
+        await RegistrationPage.sort(Negative_vals.Reference_vals)
+        await (RegistrationPage.Canada).setValue(Negative_vals.Testcase_84.TagX54); 
+        await RegistrationPage.Next_btn.click();  
+        await expect (RegistrationPage.canada_alert).toBeExisting(); 
+
+    }); 
+
+    it ('Negative test case 85', async () => {
+        await RegistrationPage.open(); 
+        await RegistrationPage.sort(Negative_vals.Reference_vals)
+        await (RegistrationPage.Canada).setValue(Negative_vals.Testcase_85.TagX55); 
+        await RegistrationPage.Next_btn.click();  
+        await expect (RegistrationPage.canada_alert).toBeExisting(); 
+
+    }); 
+
+
+
+
+
+
+    // OTHER PSOTAL NEGATIVE TEST CASES
+    // Only fails when all the other input fields fail (Do this)---> investigate further on how many inputs fields  
+    // have to fail in order for "Other Postal Code" error pops up 
+    // Might only fail from automated test not when user input invalid value 
+
+    it ('Negative test case 86', async () => {
+        await RegistrationPage.open(); 
+        await RegistrationPage.sort2(Negative_vals.Reference_vals)
+        await (RegistrationPage.Zip).setValue(Negative_vals.Testcase_86.TagX56); 
+        await RegistrationPage.Next_btn.click();  
+        await expect (RegistrationPage.zip_alert).toBeExisting(); 
+
+    }); 
+
+    it ('Negative test case 87', async () => {
+        await RegistrationPage.open(); 
+        await RegistrationPage.sort2(Negative_vals.Reference_vals)
+        await (RegistrationPage.Zip).setValue(Negative_vals.Testcase_87.TagX57); 
+        await RegistrationPage.Next_btn.click();  
+        await expect (RegistrationPage.zip_alert).toBeExisting(); 
+
+    }); 
+
+    it ('Negative test case 88', async () => {
+        await RegistrationPage.open(); 
+        await RegistrationPage.sort2(Negative_vals.Reference_vals)
+        await (RegistrationPage.Zip).setValue(Negative_vals.Testcase_88.TagX58); 
+        await RegistrationPage.Next_btn.click();  
+        await expect (RegistrationPage.zip_alert).toBeExisting(); 
+
+    }); 
+
+    it ('Negative test case 89', async () => {
+        await RegistrationPage.open(); 
+        await RegistrationPage.sort2(Negative_vals.Reference_vals)
+        await (RegistrationPage.Zip).setValue(Negative_vals.Testcase_89.TagX59); 
+        await RegistrationPage.Next_btn.click();  
+        await expect (RegistrationPage.zip_alert).toBeExisting(); 
+    }); 
+
+
+
+
+
+
+    // PHONE NUMBER NEGATIVES TEST CASES
+
+    it ('Negative test case 90', async () => {
+        await RegistrationPage.open(); 
+        await RegistrationPage.sort(Negative_vals.Reference_vals)
+        await RegistrationPage.phone(Negative_vals.Testcase_90.TagX60); 
+        await RegistrationPage.Next_btn.click();  
+        await expect (RegistrationPage.phone_alert).toBeExisting(); 
+    }); 
+
+    it ('Negative test case 91', async () => {
+        await RegistrationPage.open(); 
+        await RegistrationPage.sort(Negative_vals.Reference_vals)
+        await RegistrationPage.phone(Negative_vals.Testcase_91.TagX61); 
+        await RegistrationPage.Next_btn.click();  
+        await expect (RegistrationPage.phone_alert).toBeExisting(); 
+    }); 
+
+    it ('Negative test case 92', async () => {
+        await RegistrationPage.open(); 
+        await RegistrationPage.sort(Negative_vals.Reference_vals)
+        await RegistrationPage.phone(Negative_vals.Testcase_92.TagX62); 
+        await RegistrationPage.Next_btn.click();  
+        await expect (RegistrationPage.phone_alert).toBeExisting(); 
+    }); 
+
+    it ('Negative test case 93', async () => {
+        await RegistrationPage.open(); 
+        await RegistrationPage.sort(Negative_vals.Reference_vals)
+        await RegistrationPage.phone(Negative_vals.Testcase_93.TagX63); 
+        await RegistrationPage.Next_btn.click();  
+        await expect (RegistrationPage.phone_alert).toBeExisting(); 
+    }); 
+
+    it ('Negative test case 94', async () => {
+        await RegistrationPage.open(); 
+        await RegistrationPage.sort(Negative_vals.Reference_vals)
+        await RegistrationPage.phone(Negative_vals.Testcase_94.TagX64); 
+        await RegistrationPage.Next_btn.click();  
+        await expect (RegistrationPage.phone_alert).toBeExisting(); 
+    }); 
+
+
+    it ('Negative test case 95', async () => {
+        await RegistrationPage.open(); 
+        await RegistrationPage.sort(Negative_vals.Reference_vals)
+        await RegistrationPage.phone(Negative_vals.Testcase_95.TagX65); 
+        await RegistrationPage.Next_btn.click();  
+        await expect (RegistrationPage.phone_alert).toBeExisting(); 
+    }); 
+
+
+    it ('Negative test case 96', async () => {
+        await RegistrationPage.open(); 
+        await RegistrationPage.sort(Negative_vals.Reference_vals)
+        await RegistrationPage.phone(Negative_vals.Testcase_96.TagX66); 
+        await RegistrationPage.Next_btn.click();  
+        await expect (RegistrationPage.phone_alert).toBeExisting(); 
+    }); 
+
+
+    it ('Negative test case 97', async () => {
+        await RegistrationPage.open(); 
+        await RegistrationPage.sort(Negative_vals.Reference_vals)
+        await RegistrationPage.phone(Negative_vals.Testcase_97.TagX67); 
+        await RegistrationPage.Next_btn.click();  
+        await expect (RegistrationPage.phone_alert).toBeExisting(); 
+    }); 
+
+
+
+
+
+
+
+
+
+
+
+
     
 
 
