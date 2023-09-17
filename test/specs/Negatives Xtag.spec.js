@@ -4,7 +4,7 @@
 import RegistrationPage from '../pageobjects/Registration.page.js'
 import { Negative_vals } from '../TestData/Negatives_Xtag.js';
 
-describe('Negative tests for Rallybound ', () => {
+describe('ALL NEGATIVE X TAGS TEST CASES FOR RALLYBOUND ', () => {
 
 
     //FIRSTNAME NEGATIVE TESTS CASES

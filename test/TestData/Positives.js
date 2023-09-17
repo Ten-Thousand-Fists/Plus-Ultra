@@ -35,7 +35,6 @@ export class Positive_vals {
         Apt_Suite_Unit: "#J5904",   // Tag_V29
         Country: "CANADA",   // Tag_V34-Tag_V35
         City: "San Diego",   // Tag_V37
-        State: "CA",   // Tag_V41
         Zip: "M5C 2V9",   // Tag_V45-V46
         Phone1: "714",   // Tag_V51
         Phone2: "966",
@@ -55,7 +54,7 @@ export class Positive_vals {
         Confirm_Password: "Pas5@#@#",   // Tag_V23
         Address: "4020 Peña-St",   // Tag_V24
         Apt_Suite_Unit: "#J5904",   // Tag_V29
-        Country: "France",   // Tag_V36
+        Country: "FRANCE",   // Tag_V36
         City: "San Diego",   // Tag_V37
         State: "CA",   // Tag_V41
         Zip: "M5C 2V9",   // Tag_V45-V46
@@ -68,46 +67,46 @@ export class Positive_vals {
         
     } 
 
-    static Reference_valsB = {
+    static Testcase_35 = {
 
-        FirstName: "LHK",  // Tag_V1 
-        lastname: "LHK",    // Tag_V6
-        email_Address: "L@m.com",   //Tag_V11
-        Password: "B3nny!",   // Tag_V16
-        Confirm_Password: "B3nny!",   // Tag_V23
-        Address: "360A",   // Tag_V24
-        Apt_Suite_Unit: "76B",   // Tag_V29
-        Country: "United States",   // Tag_V36
-        City: "San Diego",   // Tag_V37
-        State: "CA",   // Tag_V41
-        Zip: "92046",   // Tag_V45-V46
-        canada_Postal: "K1A 0B1",
-        other_Postal:  "534",
+        FirstName: "LHK",  // Tag_B1 
+        lastname: "LHK",    // Tag_B3
+        email_Address: "L@m.com",   //Tag_B5
+        Password: "B3nny!",   // Tag_B7
+        Confirm_Password: "B3nny!",   // Tag_B7
+        Address: "360A",   // Tag_B9
+        Apt_Suite_Unit: "76B",   // Tag_B11
+        Country: "UNITED STATES",   // Tag_B13
+        City: "San Diego",   // Tag_B15
+        State: "CA",   // Tag_B17
+        Zip: "92046",   // Tag_B19
+        canada_Postal: "K1A 0B1",  //Tag_B21
+        other_Postal:  "534",   //Tag_B23
 
         Phone1: "714",   // Tag_B25-Tag_B26
         Phone2: "966",   // Tag_B25-Tag_B26
         Phone3: "6605"   // Tag_B25-Tag_B26
     }
 
-    static Reference_valsBv2 = {
+    static Testcase_36 = {
 
-        FirstName: "LHK",  // Tag_V1 
-        lastname: "LHK",    // Tag_V6
-        email_Address: "L@m.com",   //Tag_V11
-        Password: "B3nny!",   // Tag_V16
-        Confirm_Password: "B3nny!",   // Tag_V23
-        Address: "360A",   // Tag_V24
-        Apt_Suite_Unit: "76B",   // Tag_V29
-        Country: "United States",   // Tag_V36
-        City: "San Diego",   // Tag_V37
-        State: "CA",   // Tag_V41
-        Zip: "92046",   // Tag_V45-V46
-        canada_Postal: "K1A 0B1",
-        other_Postal:  "534",
+        FirstName: "LHK",  // Tag_B2 
+        lastname: "LHK",    // Tag_B4
+        email_Address: "L@m.com",   //Tag_B6
+        Password: "B3nny!",   // Tag_B8
+        Confirm_Password: "B3nny!",   // Tag_B8
+        Address: "360A",   // Tag_B10
+        Apt_Suite_Unit: "76B",   // Tag_B12
+        Country: "UNITED STATES",   // Tag_B14
+        City: "San Diego",   // Tag_B16
+        State: "CA",   // Tag_B18
+        Zip: "92046",   // Tag_B20
+        canada_Postal: "K1A 0B1",   // Tag_B22
+        other_Postal:  "534",   // Tag_B24
 
-        Phone1: "963",   // Tag_B25-Tag_B26
-        Phone2: "214",   // Tag_B25-Tag_B26
-        Phone3: "5780"   // Tag_B25-Tag_B26
+        Phone1: "963",   // Tag_B27
+        Phone2: "214",   // Tag_B27
+        Phone3: "5780"   // Tag_B27
     }
 
 
@@ -301,6 +300,28 @@ export class Positive_vals {
 
 
 
+    // Canada Positive test cases
+    static Testcase_26 = {
+
+        TagV45: "M5C 2V9"
+
+    }
+
+    static Testcase_26v2 = {
+
+        TagV46: "M5C 2V9"
+        
+    }
+
+    static Testcase_26v3 = {
+        TagV41: "ON"
+    }
+
+
+
+
+
+
 
     // Other Postal Positive Test Cases, Goes with France_vals
     static Testcase_28 = {
@@ -352,6 +373,13 @@ export class Positive_vals {
 
     }
 
+
+
+
+
+
+
+    // Phone Positive test case
     static Testcase_34v1 = {
     
         TagV54: {      // This includes TagV51-TagV53
@@ -362,65 +390,10 @@ export class Positive_vals {
 
     }
 
-    static Testcase_35 = {
+
+
     
-        TagB: "Lôren"
-
-    }
-
-    static Testcase_2 = {
-    
-        TagV2: "Lôren"
-
-    }
-
-    static Testcase_2 = {
-    
-        TagV2: "Lôren"
-
-    }
-
-    static Testcase_2 = {
-    
-        TagV2: "Lôren"
-
-    }
-
-    static Testcase_2 = {
-    
-        TagV2: "Lôren"
-
-    }
-
-    static Testcase_2 = {
-    
-        TagV2: "Lôren"
-
-    }
-
-    static Testcase_2 = {
-    
-        TagV2: "Lôren"
-
-    }
-
-    static Testcase_2 = {
-    
-        TagV2: "Lôren"
-
-    }
-
-    static Testcase_2 = {
-    
-        TagV2: "Lôren"
-
-    }
-
-    static Testcase_2 = {
-    
-        TagV2: "Lôren"
-
-    }
+   
 
     
 

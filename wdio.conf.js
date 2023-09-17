@@ -4,7 +4,6 @@ export const config = {
     // Runner Configuration
     // ====================
     // WebdriverIO supports running e2e tests as well as unit and component tests.
-    
     runner: 'local',
     //
     // ==================
@@ -51,21 +50,9 @@ export const config = {
     // Sauce Labs platform configurator - a great tool to configure your capabilities:
     // https://saucelabs.com/platform/platform-configurator
     //
-    capabilities: [
-        {
-        
-        browserName: 'chrome',
-        acceptInsecureCerts: true 
-    }, 
-    {
-
-        browserName: 'firefox', 
-        acceptInsecureCerts: true 
-    }, 
-    
-    
-    
-],
+    capabilities: [{
+        browserName: 'chrome'
+    }],
 
     //
     // ===================
@@ -238,7 +225,7 @@ export const config = {
      * @param {*}       result.result    return object of test function
      * @param {number}  result.duration  duration of test
      * @param {boolean} result.passed    true if test has passed, otherwise false
-     * @param {object}  result.retries   informations to spec related retries, e.g. `{ attempts: 0, limit: 0 }`
+     * @param {object}  result.retries   information about spec related retries, e.g. `{ attempts: 0, limit: 0 }`
      */
     // afterTest: function(test, context, { error, result, duration, passed, retries }) {
     // },

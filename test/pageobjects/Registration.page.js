@@ -62,7 +62,7 @@ class Registration extends Page {
 
 
     get Canada() {
-        return $('#stateCa') 
+        return $('select#stateCa') 
     }
 
     get phone1() {
@@ -183,7 +183,8 @@ async sort (input) {
 }
 
 
-async sort2 (input) {
+
+async sort2 (input) {    // This funtion is for a when a different Country is selected
 
     await this.first_Name.setValue(input.FirstName); 
     await this.last_Name.setValue(input.lastname);  
@@ -201,6 +202,30 @@ async sort2 (input) {
 
 
 }
+
+async sort3 (input) {
+
+    await this.first_Name.setValue(input.FirstName); 
+    await this.last_Name.setValue(input.lastname);  
+    await this.email_Address.setValue(input.email_Address);
+    await this.password1.setValue(input.Password);
+    await this.con_password.setValue(input.Confirm_Password);
+    await this.add_ress.setValue(input.Address);
+    await this.aptSteUnit.setValue(input.Apt_Suite_Unit); 
+    await this.Country.selectByVisibleText(input.Country);
+    await this.City.setValue(input.City);
+    await this.Canada.selectByVisibleText(input.State);
+    await this.Zip.setValue(input.Zip);
+    await this.phone1.setValue(input.Phone1);
+    await this.phone2.setValue(input.Phone2);
+    await this.phone3.setValue(input.Phone3);
+
+
+}
+
+
+
+
 
 
 

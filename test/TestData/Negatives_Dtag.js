@@ -24,6 +24,43 @@ export class NegativeD_vals {
 
 } 
 
+
+
+static Canada_Vals1 = {
+
+    FirstName: "Loren",  // Tag_V1 
+    lastname: "Kim",    // Tag_V6
+    email_Address: "KimMitch3ll@gmail.com",   //Tag_V11
+    Password: "Pas5@#@#",   // Tag_V16
+    Confirm_Password: "Pas5@#@#",   // Tag_V23
+    Address: "4020 Peña-St",   // Tag_V24
+    Apt_Suite_Unit: "#J5904",   // Tag_V29
+    Country: "CANADA",   // Tag_V34-Tag_V35
+    City: "San Diego",   // Tag_V37
+    Zip: "M5C 2V9",   // Tag_V45-V46
+    Phone1: "714",   // Tag_V51
+    Phone2: "966",
+    Phone3: "6605"
+
+    
+    
+    
+} 
+
+
+static Canada_Vals2 = {
+
+    
+    Province: "ON"   
+    
+
+    
+    
+    
+} 
+
+
+
 // Test cases for First Name
 static Test_Case_98_Negative = {
 

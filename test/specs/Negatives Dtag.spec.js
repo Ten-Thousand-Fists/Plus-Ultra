@@ -4,12 +4,12 @@
 import RegistrationPage from '../pageobjects/Registration.page.js'
 import { NegativeD_vals } from '../TestData/Negatives_Dtag.js';
 
-describe('Negative tests for Rallybound ', () => {
+describe('ALL NEGATIVE D TAGS TEST CASES FOR RALLYBOUND ', () => {
 
     
     // FIRST NAME NEGATIVES TEST CASES
 
-    xit ('Negative test case 98', async () => {
+    it ('Negative test case 98', async () => {
         await RegistrationPage.open(); 
         await RegistrationPage.sort( NegativeD_vals.Reference_vals)
 
@@ -20,7 +20,7 @@ describe('Negative tests for Rallybound ', () => {
 
     }); 
 
-    xit ('Negative test case 99', async () => {
+    it ('Negative test case 99', async () => {
         await RegistrationPage.open(); 
         await RegistrationPage.sort( NegativeD_vals.Reference_vals)
         await (RegistrationPage.first_Name).setValue( NegativeD_vals.Test_Case_99_Negative.TagD2); 
@@ -40,7 +40,7 @@ describe('Negative tests for Rallybound ', () => {
 
     // LAST NAME NEGATIVES TEST CASES
 
-    xit ('Negative test case 100', async () => {
+    it ('Negative test case 100', async () => {
         await RegistrationPage.open(); 
         await RegistrationPage.sort( NegativeD_vals.Reference_vals)
         await (RegistrationPage.last_Name).setValue( NegativeD_vals.Test_Case_100_Negative.TagD3); 
@@ -50,7 +50,7 @@ describe('Negative tests for Rallybound ', () => {
 
     }); 
 
-    xit ('Negative test case 101', async () => {
+    it ('Negative test case 101', async () => {
         await RegistrationPage.open(); 
         await RegistrationPage.sort( NegativeD_vals.Reference_vals)
         await (RegistrationPage.last_Name).setValue( NegativeD_vals.Test_Case_101_Negative.TagD4); 
@@ -67,7 +67,7 @@ describe('Negative tests for Rallybound ', () => {
 
 
     // EMAIL ADDRESS NEGATIVE TEST CASES
-    xit ('Negative test case 102', async () => {
+    it ('Negative test case 102', async () => {
         await RegistrationPage.open(); 
         await RegistrationPage.sort( NegativeD_vals.Reference_vals)
         await (RegistrationPage.email_Address).setValue( NegativeD_vals.Test_Case_102_Negative.TagD5); 
@@ -77,7 +77,7 @@ describe('Negative tests for Rallybound ', () => {
 
     }); 
 
-    xit ('Negative test case 103', async () => {
+    it ('Negative test case 103', async () => {
         await RegistrationPage.open(); 
         await RegistrationPage.sort( NegativeD_vals.Reference_vals)
         await (RegistrationPage.email_Address).setValue( NegativeD_vals.Test_Case_103_Negative.TagD6); 
@@ -94,7 +94,7 @@ describe('Negative tests for Rallybound ', () => {
 
 
     // PASSWORD NEGATIVE TEST CASES
-    xit ('Negative test case 104', async () => {
+    it ('Negative test case 104', async () => {
         await RegistrationPage.open(); 
         await RegistrationPage.sort( NegativeD_vals.Reference_vals)
         await (RegistrationPage.password1).setValue( NegativeD_vals.Test_Case_104_Negative.TagD7); 
@@ -104,7 +104,7 @@ describe('Negative tests for Rallybound ', () => {
 
     }); 
 
-    xit ('Negative test case 105', async () => {
+    it ('Negative test case 105', async () => {
         await RegistrationPage.open(); 
         await RegistrationPage.sort( NegativeD_vals.Reference_vals)
         await (RegistrationPage.password1).setValue( NegativeD_vals.Test_Case_105_Negative.TagD8); 
@@ -121,7 +121,7 @@ describe('Negative tests for Rallybound ', () => {
 
 
     // ADDRESS NEGATIVE TEST CASES
-    xit ('Negative test case 106', async () => {
+    it ('Negative test case 106', async () => {
         await RegistrationPage.open(); 
         await RegistrationPage.sort( NegativeD_vals.Reference_vals)
         await (RegistrationPage.add_ress).setValue( NegativeD_vals.Test_Case_106_Negative.TagD9); 
@@ -131,7 +131,7 @@ describe('Negative tests for Rallybound ', () => {
 
     }); 
 
-    xit ('Negative test case 107', async () => {
+    it ('Negative test case 107', async () => {
         await RegistrationPage.open(); 
         await RegistrationPage.sort( NegativeD_vals.Reference_vals)
         await (RegistrationPage.add_ress).setValue( NegativeD_vals.Test_Case_107_Negative.TagD10); 
@@ -149,7 +149,7 @@ describe('Negative tests for Rallybound ', () => {
 
 
     // APT/SUITE/UNIT NEGATIVE TEST CASES
-    xit ('Negative test case 108', async () => {
+    it ('Negative test case 108', async () => {
         await RegistrationPage.open(); 
         await RegistrationPage.sort( NegativeD_vals.Reference_vals)
         await (RegistrationPage.add_ress).setValue( NegativeD_vals.Test_Case_108_Negative.TagD11); 
@@ -160,7 +160,7 @@ describe('Negative tests for Rallybound ', () => {
     }); 
 
 
-    xit ('Negative test case 109', async () => {
+    it ('Negative test case 109', async () => {
         await RegistrationPage.open(); 
         await RegistrationPage.sort( NegativeD_vals.Reference_vals)
         await (RegistrationPage.add_ress).setValue( NegativeD_vals.Test_Case_109_Negative.TagD12); 
@@ -178,7 +178,7 @@ describe('Negative tests for Rallybound ', () => {
 
 
     // CITY NEGATIVE TEST CASES
-    xit ('Negative test case 110', async () => {
+    it ('Negative test case 110', async () => {
         await RegistrationPage.open(); 
         await RegistrationPage.sort( NegativeD_vals.Reference_vals)
         await (RegistrationPage.City).setValue( NegativeD_vals.Test_Case_110_Negative.TagD13); 
@@ -189,7 +189,7 @@ describe('Negative tests for Rallybound ', () => {
     }); 
 
 
-    xit ('Negative test case 111', async () => {
+    it ('Negative test case 111', async () => {
         await RegistrationPage.open(); 
         await RegistrationPage.sort( NegativeD_vals.Reference_vals)
         await (RegistrationPage.City).setValue( NegativeD_vals.Test_Case_111_Negative.TagD14); 
@@ -207,7 +207,7 @@ describe('Negative tests for Rallybound ', () => {
 
 
     // ZIP NEGATIVE TEST CASES
-    xit ('Negative test case 112', async () => {
+    it ('Negative test case 112', async () => {
         await RegistrationPage.open(); 
         await RegistrationPage.sort( NegativeD_vals.Reference_vals)
         await (RegistrationPage.Zip).setValue( NegativeD_vals.Test_Case_112_Negative.TagD15); 
@@ -218,7 +218,7 @@ describe('Negative tests for Rallybound ', () => {
     }); 
 
 
-    xit ('Negative test case 113', async () => {
+    it ('Negative test case 113', async () => {
         await RegistrationPage.open(); 
         await RegistrationPage.sort( NegativeD_vals.Reference_vals)
         await (RegistrationPage.Zip).setValue( NegativeD_vals.Test_Case_113_Negative.TagD16); 
@@ -229,7 +229,7 @@ describe('Negative tests for Rallybound ', () => {
     }); 
 
 
-    xit ('Negative test case 114', async () => {
+    it ('Negative test case 114', async () => {
         await RegistrationPage.open(); 
         await RegistrationPage.sort( NegativeD_vals.Reference_vals)
         await (RegistrationPage.Zip).setValue( NegativeD_vals.Test_Case_114_Negative.TagD17); 
@@ -240,7 +240,7 @@ describe('Negative tests for Rallybound ', () => {
     }); 
 
 
-    xit ('Negative test case 115', async () => {
+    it ('Negative test case 115', async () => {
         await RegistrationPage.open(); 
         await RegistrationPage.sort( NegativeD_vals.Reference_vals)
         await (RegistrationPage.Zip).setValue( NegativeD_vals.Test_Case_115_Negative.TagD18); 
@@ -258,7 +258,7 @@ describe('Negative tests for Rallybound ', () => {
 
 
     // OTHER POSTAL NEGATIVE TEST CASES 
-    xit ('Negative test case 116', async () => {
+    it ('Negative test case 116', async () => {
         await RegistrationPage.open(); 
         await RegistrationPage.sort( NegativeD_vals.Reference_vals)
         await (RegistrationPage.Zip).setValue( NegativeD_vals.Test_Case_116_Negative.TagD19); 
@@ -276,10 +276,14 @@ describe('Negative tests for Rallybound ', () => {
 
 
     // CANADA POSTAL NEGATIVES TESTS
-    xit ('Negative test case 117', async () => {
+    it ('Negative test case 117', async () => {
         await RegistrationPage.open(); 
-        await RegistrationPage.sort( NegativeD_vals.Reference_vals)
-        await (RegistrationPage.Canada).setValue( NegativeD_vals.Test_Case_117_Negative.TagD20); 
+        await RegistrationPage.sort2( NegativeD_vals.Canada_Vals1)
+        await (RegistrationPage.Canada).selectByVisibleText(NegativeD_vals.Canada_Vals2.Province);  
+        await browser.pause(2000);
+
+        await (RegistrationPage.Zip).setValue( NegativeD_vals.Test_Case_117_Negative.TagD20); 
+
         await RegistrationPage.Next_btn.click();  
         await expect (RegistrationPage.canada_alert).toBeExisting(); 
 
@@ -287,7 +291,7 @@ describe('Negative tests for Rallybound ', () => {
     }); 
 
     // OTHER POSTAL NEGATIVE TEST CASES
-    xit ('Negative test case 118', async () => {
+    it ('Negative test case 118', async () => {
         await RegistrationPage.open(); 
         await RegistrationPage.sort( NegativeD_vals.Reference_vals)
         await (RegistrationPage.Zip).setValue( NegativeD_vals.Test_Case_118_Negative.TagD21); 
@@ -298,7 +302,7 @@ describe('Negative tests for Rallybound ', () => {
     }); 
 
 
-    xit ('Negative test case 119', async () => {
+    it ('Negative test case 119', async () => {
         await RegistrationPage.open(); 
         await RegistrationPage.sort( NegativeD_vals.Reference_vals)
         await (RegistrationPage.Zip).setValue( NegativeD_vals.Test_Case_119_Negative.TagD22); 
